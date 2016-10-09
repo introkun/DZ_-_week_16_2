@@ -26,5 +26,6 @@ int main()
 	gets_s(wordForChange, 40);
 	text = replacingTheWord(text, sizeText, wordForChange, requiredWord);
 	std::cout << text << std::endl;
+	// Память не высвобождается
 	return 0;
 }
